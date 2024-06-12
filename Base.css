@@ -1,0 +1,313 @@
+body {
+    min-width: 1024px;
+    margin : 0px;
+    background-color: #241a10;
+}
+
+img {
+    border-style: none;
+}
+
+a:active, a:focus
+{
+    outline: none;
+}
+
+p {
+    margin: 0px
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+h4 {
+    margin: 5px 10px;
+}
+
+textarea {
+    overflow: scroll;
+    width: 400px;
+}
+
+
+
+
+#RightColumn {
+    width: 50%;
+    height: 100%;
+}
+
+#leftColumn {
+    width: 50%;
+    height: 100%;
+}
+
+#CenterColumn {
+    min-width: 1024px;
+    height: 768px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+#info-langue-i {
+    background-color: #cdcccc;
+    height: 25px;
+    width: 100%;
+}
+
+#info-langue-i #info {
+text-indent: 10px;
+}
+
+#info-langue {
+    height: 25px;
+    width: 100%;
+}
+
+#info-langue table, #info-langue-i table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#langue {
+    background-image: url(images/menu/fondDrapeaux.png);
+    text-indent: 25px;
+    width: 112px;
+}
+
+#EN {
+    padding-left: 15px;
+}
+
+#header {
+    background-color: #cdcccc;
+    height: 153px;
+    text-align: center;
+}
+
+
+#menu {
+    margin-top: 5px;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#menu td {
+    border: solid #c7da1e 1px;
+}
+
+
+#menu td span {
+	display: block;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+#menu1 {
+    background-image: url(images/menu/accueilV.png);
+	background-color: #241a10;
+}
+#menu1EN {
+    background-image: url(images/menu/homeV.png);
+	background-color: #241a10;
+}
+#menu2 {
+    background-image: url(images/menu/verre-lentilleV.png);
+	background-color: #241a10;
+}
+#menu2EN {
+    background-image: url(images/menu/lens-contactlensV.png);
+	background-color: #241a10;
+}
+#menu3 {
+    background-image: url(images/menu/lunettesV.png);
+	background-color: #241a10;
+}
+#menu3EN {
+    background-image: url(images/menu/glassesV.png);
+	background-color: #241a10;
+}
+#menu4 {
+    background-image: url(images/menu/localisationV.png);
+	background-color: #241a10;
+}
+#menu4EN {
+    background-image: url(images/menu/locationV.png);
+	background-color: #241a10;
+}
+#menu5 {
+    background-image: url(images/menu/contactV.png);
+	background-color: #241a10;
+}
+
+#menu1selected {
+    background-image: url(images/menu/accueilM.png);
+    background-color: #c7da1e;
+}
+#menu1ENselected {
+    background-image: url(images/menu/homeM.png);
+    background-color: #c7da1e;
+}
+#menu2selected {
+    background-image: url(images/menu/verre-lentilleM.png);
+    background-color: #c7da1e;
+}
+#menu2ENselected {
+    background-image: url(images/menu/lens-contactlensM.png);
+    background-color: #c7da1e;
+}
+#menu3selected {
+    background-image: url(images/menu/lunettesM.png);
+    background-color: #c7da1e;
+}
+#menu3ENselected {
+    background-image: url(images/menu/glassesM.png);
+    background-color: #c7da1e;
+}
+#menu4selected {
+    background-image: url(images/menu/localisationM.png);
+    background-color: #c7da1e;
+}
+#menu4ENselected {
+    background-image: url(images/menu/locationM.png);
+    background-color: #c7da1e;
+}
+#menu5selected {
+    background-image: url(images/menu/contactM.png);
+    background-color: #c7da1e;
+}
+
+
+#menu1:hover {
+    background-image: url(images/menu/accueilM.png);
+    background-color: #c7da1e;
+}
+#menu1EN:hover {
+    background-image: url(images/menu/homeM.png);
+    background-color: #c7da1e;
+}
+#menu2:hover {
+    background-image: url(images/menu/verre-lentilleM.png);
+    background-color: #c7da1e;
+}
+#menu2EN:hover {
+    background-image: url(images/menu/lens-contactlensM.png);
+    background-color: #c7da1e;
+}
+#menu3:hover {
+    background-image: url(images/menu/lunettesM.png);
+    background-color: #c7da1e;
+}
+#menu3EN:hover {
+    background-image: url(images/menu/glassesM.png);
+    background-color: #c7da1e;
+}
+#menu4:hover {
+    background-image: url(images/menu/localisationM.png);
+    background-color: #c7da1e;
+}
+#menu4EN:hover {
+    background-image: url(images/menu/locationM.png);
+    background-color: #c7da1e;
+}
+#menu5:hover {
+    background-image: url(images/menu/contactM.png);
+    background-color: #c7da1e;
+}
+
+#body {
+    background-color: #cdcccc;
+    min-height: 500px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+
+#footer {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    border-width: 5px;
+    border-color: #cdcccc;
+    border-style: solid;
+}
+
+
+#carte{
+    text-align: center;
+}
+
+
+
+#Formulaire {
+    padding-left: 192px;
+}
+
+#Formulaire table {
+    border-spacing: 15px 0px;
+}
+
+#objet {
+    width: 400px;
+}
+
+#boutton {
+    text-align: center;
+}
+
+#messageMail {
+    text-align: center;
+}
+
+#messageAdministration {
+    text-align: center;
+    margin-top:25%;
+}
+
+#tabLunette {
+    width:100%;
+    height:500px;
+}
+
+#separateurLunette {
+       background-color: #241a10;
+       width: 8px;
+}
+
+#filtreLunette {
+    padding-top: 10px;
+    width: 150px;
+    vertical-align: top;
+}
+
+#listeLunette {
+    padding-left: 50px;
+    vertical-align: top;
+}
+
+.listeLunetteMarque {
+    width: 100%;
+}

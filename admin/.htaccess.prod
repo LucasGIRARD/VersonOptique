@@ -1,0 +1,4 @@
+AuthUserFile /homez.406/versonop/www/admin/secure/.htpasswd
+AuthName "Accès Restreint"
+AuthType Basic
+require valid-user

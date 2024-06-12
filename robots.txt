@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /travaux/
+Disallow: /shadowbox/
+Disallow: /includes/
